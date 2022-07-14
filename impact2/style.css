@@ -1,0 +1,287 @@
+*{
+    margin: o;
+    padding: 0;
+
+}
+body{
+    font-family: lobster;
+}
+#navbar {
+    position: relative;
+    top: o;
+    z-index: 10;
+
+}
+.navbar {
+    background-image: linear-gradient(to right, #a517ba,#5f1782);
+    padding: o: important;
+
+}
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    color: white:important;
+    font-weight: 800;
+
+}
+.navbar-brand img {
+    height: 50px;
+    padding: 5px;
+    padding-top: 10px;
+    justify-content: center;
+}
+
+.navbar-brand img:hover{
+    background: white;
+    border-radius: 20px;
+
+}
+#navbarNav ul li:hover {
+    background-image: linear-gradient(to right, #a517ba,#5f1782);
+    transform: translateY(-10px);
+    border-radius: 10px;
+}
+#banner {
+    background-image: linear-gradient(to right, #a517ba,#5f1782);
+    padding-top: 55;
+    color: white;
+}
+.playbtn{
+    width: 45px;
+    margin: 20px;
+}
+.playbtn:hover {
+    background-image: linear-gradient(to right, #a517ba,#5f1782);
+    transform: translateY(-10px);
+    border-radius: 20px;
+}
+.name {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+    animation-name: impact;
+    animation-duration: 4s ;
+    animation-iteration-count: 100;
+}
+
+@keyframes impact {
+    0% {font-size: 40px;}
+   20% {font-size: 50px;}
+    40% {font-size: 60px;}
+    60% {font-size: 70px;}
+    80% {font-size: 60px;}
+    100% {font-size: 50px;}
+    
+    
+}
+  
+.bottom {
+    width: 100%;
+    
+}
+
+#services {
+    padding: 80px 0;
+
+}
+.services-img {
+    width: 100px;
+    margin-top: 10px;
+}
+.services {
+    padding: 20px;
+}
+.services h4 {
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+    
+}
+.services:hover{
+    background-image: linear-gradient(to right, #a517ba,#5f1782);
+    color: white;
+    border-radius: 50px;
+    transform: translateY(-10px);
+}
+.title::before {
+    content: '';
+    background: purple;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+.title::after {
+    content: '';
+    background: purple;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+}
+
+ #services  .btn-primary {
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #a517ba,#5f1782);
+}
+
+#about {
+    background: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.abt {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 8%;
+
+}
+#about ul li {
+    margin-top: 10px;
+}
+#about ul li:hover {
+    background-image: linear-gradient(to right, #a517ba,#5f1782);
+    color: white;
+    padding: 10px;
+    font-weight: 25px; 
+    border-radius: 20px;
+    list-style-type: disc;
+    background-image: linear-gradient(to right, #a517ba,#5f1782);
+}
+#testimonials {
+    margin: 10px 0;
+}
+.testimonials {
+    border-left: 4px solid #7b179a;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.testimonials img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 0px 10px;
+}
+.testimonials img:hover {
+    height: 100px;
+    width: 100px;
+    border-radius:50% ;
+    margin: 0px 10px;
+    transform: translateY(-50px);
+}
+.userdet {
+    display: inline-block;
+    font-size: 12px;
+}
+
+#social-media {
+    background: #f8f9fa;
+    padding: 10px 0;
+}
+#social-media p {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.icons {
+    margin-bottom: 70px;
+}
+.icons img {
+    width: 60px;
+    transition: 0.5s;
+
+}
+.icons a:hover img  {
+    transform: translateY(-10px);
+}
+#footer {
+    
+    background-image: linear-gradient(to right, #a517ba,#5f1782);
+    color: white;
+}
+.footer-img {
+    width: 100%;
+}
+.footbox {
+ padding: 20px;
+ border-left: white 5px;
+}
+.footbox img {
+    width: 120px;
+    margin-bottom: 20px;
+}
+.footbox img:hover{
+    transform: translateY(-10px);
+    background: white;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+.footbox .form-control {
+    box-shadow: none :important;
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+}
+hr {
+ background: white;
+}
+.copy {
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    background: white;
+    color: black;
+    font-size: 15px ;
+}
+
+
+.footbox .form-control {
+box-shadow: none ; 
+border: none;
+border-radius: 0;
+margin-top: 25px;
+max-width: 250px;   
+}
+.footbox .btn-primary {
+    box-shadow: none;
+    border: 0;
+    border-radius: 0;
+    margin-top: 36px;
+    background-image: linear-gradient(to right, #a517ba,#5f1782);
+
+}
+
+.footbox .btn-primary:hover {
+    background: white;
+    color: purple;
+}
+
+#more {display: none;}
+
+.fa {
+    padding: 10px;
+
+}
+.fa:hover {
+    
+    transform: translateY(-10px);
+    background-image: linear-gradient(to right, #a517ba,#5f1782);
+    border-radius: 10px;
+}
+
+/******************modal****************/
+
+
